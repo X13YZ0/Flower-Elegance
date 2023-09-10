@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Floral Elegance</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><a href="home.html">Floral Elegance</a></h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+    <section class="checkout-section">
+        <div class="checkout-box">
+            <h2>Delivery Address</h2>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" required></textarea><br>
+
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" required><br>
+
+            <label for="zipcode">Zip Code:</label><br>
+            <input type="text" id="zipcode" name="zipcode" required><br>
+        </div>
+
+        <div class="checkout-box">
+            <h2>Payment Information</h2>
+            <label for="card-number">Card Number:</label><br>
+            <input type="text" id="card-number" name="card-number" required><br>
+
+            <label for="expiration">Expiration Date:</label><br>
+            <input type="text" id="expiration" name="expiration" placeholder="MM/DD/YYYY" required><br>
+
+            <label for="cvv">CVV:</label><br>
+            <input type="text" id="cvv" name="cvv" required><br>
+        </div>
+
+        <button class="checkout-button">Checkout</button>
+    </section>
+</main>
+
+        <footer class="footer">
+            <p>&copy; 2023 Floral Elegance. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

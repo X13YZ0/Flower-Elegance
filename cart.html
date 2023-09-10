@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floral Elegance</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><a href="home.html">Floral Elegance</a></h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <main class="main-content">
+        <section class="cart-section">
+    <h1>Your Cart</h1>
+    <div id="cart-items">
+        <!-- รายการสินค้าที่ถูกเพิ่มลงในตะกร้าจะปรากฏที่นี่ -->
+    </div>
+    <p id="empty-cart-message" style="display: none; text-align: center; font-weight: bold; color: red;">
+        There are no products in the cart. Please select a product from the product page.
+    </p>
+</section>
+
+        <section class="checkout-section">
+    <h2>Total: <span class="total-price">0.00 Bath</span></h2>
+    <button class="checkout-button">Checkout</button>
+</section>
+    </main>
+
+    <footer class="footer">
+            <p>&copy; 2023 Floral Elegance. All rights reserved.</p>
+        </footer>
+<script src="script/localStorage.js"></script>
+<script src="script/checkout.js"></script>
+</body>
+</html>
